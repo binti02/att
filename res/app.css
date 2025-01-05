@@ -1,0 +1,197 @@
+
+*{
+    max-width:100%;
+    outline: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+}
+main{
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+.continer{
+    margin-top: 40px;
+    padding:46px;
+    border:solid 1px #00000021;
+    border-radius:12px;
+    display: inline-block;
+    width: 460px;
+}
+.continer1{
+    margin:0;
+    padding:40px;
+    border:solid 1px #00000021;
+    border-radius:12px;
+    display: inline-block;
+    width: 420px;
+}
+
+.logo img{
+    width:120px;
+    margin-top:20px;
+}
+
+.logo1 img{
+    width:120px;
+    margin:0;
+}
+
+.title {
+ 
+    height:23px;
+  
+}
+.title h1 h2{
+    font-weight: bold;
+    margin:0; 
+}
+
+.col{
+    margin: 20px 0;
+}
+
+.col input{
+
+    width:100%;
+    padding:17px;
+   border-radius:12px;
+    border:solid 1px #686e74;
+}
+
+
+.col label{
+    font-size:0.9em;
+    font-weight:bold;
+    display:block;
+    text-align:left;
+    margin:7px 0;
+}
+
+.but0 button{
+    margin:20px 0;
+    width:100%;
+    border-radius:30px;
+    padding:16px;
+    border:none;
+    color:white;
+    background:#0057b8;
+}
+.but button{
+    margin:10px 0;
+    width:100%;
+    border-radius:30px;
+    padding:16px;
+    border:none;
+    color:white;
+    background:#0057b8;
+}
+.but1 button{
+    color:#0057b8;
+    margin:10px 0;
+    width:100%;
+    border:solid 2px #0057b8;
+    border-radius:30px;
+    padding:16px;
+    font-weight:bold;
+    background:#ffffff;
+}
+
+
+
+
+
+
+
+
+
+hr {
+    margin-top:29px;
+  border: none;
+  border-top: 1px double #3333335e;
+  color: #333;
+  overflow: visible;
+ 
+ 
+}
+
+hr::after {
+  background: #fff;
+  content: 'QR';
+  font-size: 0.7em;
+  font-weight: bold;
+  padding: 0 1px;
+  position: relative;
+  top: -12px;
+} 
+
+.a a{
+    direction:none;
+    display:block;
+    text-align:left;
+    margin:24px 0;
+    text-decoration: none;
+    color:#0057b8;
+    font-weight:bold;
+}
+
+.bot img{
+width:550px;
+margin: 40px 0;
+}
+
+.bot1 img{
+   
+   display:none;
+    }
+
+.chek{
+    display:flex;
+    text-align:left;
+   
+    
+}
+.chek label{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ margin:10px;
+ font-size: 0.86em;
+   
+}
+.chek input{
+margin:0;
+border-radius:30px;
+border:solid 1px black;
+ width:22px;
+height:36px; 
+  
+}
+
+.tittle{
+    margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+      
+    
+    .continer{
+        padding:30px;
+        margin:0;
+    }
+    .logo img{
+        width:100px;
+        margin:0;
+    }
+.title{
+    font-size:0.72em;
+}
+    .bot img{
+        display:none;
+        
+    }
+    
+    
+  }
